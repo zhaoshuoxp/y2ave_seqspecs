@@ -1,0 +1,9 @@
+* Introduction
+
+This is a cache of seqspecs being prepared for the reprocessing of the
+Y2AVE datasets for the IGVF project.
+
+They're being generated with [[https://github.com/detrout/igvf-seq-spec-demo/blob/main/build-y2ave-seqspec.ipynb][igvf-seqspec-demo:build-y2ave-seqspec]]
+
+But I thought it'd be good to have a repository that isn't being
+overwritten each time I try debugging the notebook
