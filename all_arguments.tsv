@@ -1,0 +1,74 @@
+team_id	dataset_id	chromap	kb
+Team_1	230601_iPSC_art_ven_EC_10Xmultiome_S1	-1 ATAC_1_S1_L001_R1_001.fastq.gz -2 ATAC_1_S1_L001_R3_001.fastq.gz --barcode ATAC_1_S1_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	230601_iPSC_art_ven_EC_10Xmultiome_S2	-1 ATAC_2_S2_L001_R1_001.fastq.gz -2 ATAC_2_S2_L001_R3_001.fastq.gz --barcode ATAC_2_S2_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset0	-1 ATAC2_S54_L003_R1_001.fastq.gz -2 ATAC2_S54_L003_R3_001.fastq.gz --barcode ATAC2_S54_L003_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset10_10X_lane1	-1 ATAC_1_S130_L007_R3_001.fastq.gz -2 ATAC_1_S130_L007_R1_001.fastq.gz --barcode ATAC_1_S130_L007_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset10_10X_lane2	-1 ATAC_2_S131_L007_R3_001.fastq.gz -2 ATAC_2_S131_L007_R1_001.fastq.gz --barcode ATAC_2_S131_L007_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset1_10X_Lane_1	-1 ATAC_1_S358_L007_R1_001.fastq.gz -2 ATAC_1_S358_L007_R3_001.fastq.gz --barcode ATAC_1_S358_L007_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset1_10X_Lane_2	-1 ATAC_2_S359_L007_R1_001.fastq.gz -2 ATAC_2_S359_L007_R3_001.fastq.gz --barcode ATAC_2_S131_L007_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset2_10X_Lane_1	-1 ATAC_3_S360_L007_R3_001.fastq.gz -2 ATAC_3_S360_L007_R1_001.fastq.gz --barcode ATAC_3_S360_L007_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset3_10XLane_1	-1 ATAC_1-_S1_L001_R3_001.fastq.gz -2 ATAC_1-_S1_L001_R1_001.fastq.gz --barcode ATAC_1-_S1_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset3_10XLane_2	-1 ATAC_2-_S2_L001_R3_001.fastq.gz -2 ATAC_2-_S2_L001_R1_001.fastq.gz --barcode ATAC_2-_S2_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset3_10XLane_3	-1 ATAC_3-_S3_L001_R1_001.fastq.gz -2 ATAC_3-_S3_L001_R3_001.fastq.gz --barcode ATAC_3-_S3_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset3_10XLane_4	-1 ATAC_4-_S4_L001_R1_001.fastq.gz -2 ATAC_4-_S4_L001_R3_001.fastq.gz --barcode ATAC_4-_S4_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset4_10X_lane1	-1 _ATAC_1_S5_L003_R1_001.fastq.gz -2 _ATAC_1_S5_L003_R3_001.fastq.gz --barcode _ATAC_1_S5_L003_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset4_10X_lane2	-1 _ATAC_2_S6_L003_R1_001.fastq.gz -2 _ATAC_2_S6_L003_R3_001.fastq.gz --barcode _ATAC_2_S6_L003_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset7_10X_Lane_1_human	-1 ATAC_1__S1_L001_R3_001.fastq.gz -2 ATAC_1__S1_L001_R1_001.fastq.gz --barcode ATAC_1__S1_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset7_10X_Lane_1_mouse	-1 ATAC_1__S1_L001_R3_001.fastq.gz -2 ATAC_1__S1_L001_R1_001.fastq.gz --barcode ATAC_1__S1_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset7_10X_Lane_2_human	-1 ATAC_2__S2_L001_R1_001.fastq.gz -2 ATAC_2__S2_L001_R3_001.fastq.gz --barcode ATAC_2__S2_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset7_10X_Lane_2_mouse	-1 ATAC_2__S2_L001_R1_001.fastq.gz -2 ATAC_2__S2_L001_R3_001.fastq.gz --barcode ATAC_2__S2_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset7_10X_Lane_3_human	-1 ATAC_3__S3_L001_R1_001.fastq.gz -2 ATAC_3__S3_L001_R3_001.fastq.gz --barcode ATAC_3__S3_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset7_10X_Lane_3_mouse	-1 ATAC_3__S3_L001_R1_001.fastq.gz -2 ATAC_3__S3_L001_R3_001.fastq.gz --barcode ATAC_3__S3_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset7_10X_Lane_4_human	-1 ATAC_4__S4_L001_R1_001.fastq.gz -2 ATAC_4__S4_L001_R3_001.fastq.gz --barcode ATAC_4__S4_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset7_10X_Lane_4_mouse	-1 ATAC_4__S4_L001_R1_001.fastq.gz -2 ATAC_4__S4_L001_R3_001.fastq.gz --barcode ATAC_4__S4_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset9_10XLane_1	-1 ATAC_1CMAS_IGVF9_A_S21_L005_R1_001.fastq.gz -2 ATAC_1CMAS_IGVF9_A_S21_L005_R3_001.fastq.gz --barcode ATAC_1CMAS_IGVF9_A_S21_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset9_10X_lane2	-1 ATAC_2CMAS_IGVF9_A_S22_L005_R1_001.fastq.gz -2 ATAC_2CMAS_IGVF9_A_S22_L005_R3_001.fastq.gz --barcode ATAC_2CMAS_IGVF9_A_S22_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_1	CharacterizationMcGinnis_Dataset9_10X_lane3	-1 ATAC_3CMAS_IGVF9_A_S23_L005_R1_001.fastq.gz -2 ATAC_3CMAS_IGVF9_A_S23_L005_R3_001.fastq.gz --barcode ATAC_3CMAS_IGVF9_A_S23_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_2	CharacterizationMcGinnis_Dataset5_10xlane1	-1 ATAC_1_S7_L005_R3_001.fastq.gz -2 ATAC_1_S7_L005_R1_001.fastq.gz --barcode ATAC_1_S7_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_2	CharacterizationMcGinnis_Dataset5_10xlane2	-1 ATAC_2_S8_L005_R3_001.fastq.gz -2 ATAC_2_S8_L005_R1_001.fastq.gz --barcode ATAC_2_S8_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_2	CharacterizationMcGinnis_Dataset5_10xlane3	-1 ATAC_3_S9_L005_R1_001.fastq.gz -2 ATAC_3_S9_L005_R3_001.fastq.gz --barcode ATAC_3_S9_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_2	CharacterizationMcGinnis_Dataset5_10xlane4	-1 ATAC_4_S10_L005_R3_001.fastq.gz -2 ATAC_4_S10_L005_R1_001.fastq.gz --barcode ATAC_4_S10_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_2	Dataset6_Lane_1	-1 ATAC_1_S5_L005_R3_001.fastq.gz -2 ATAC_1_S5_L005_R1_001.fastq.gz --barcode ATAC_1_S5_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_2	Dataset6_Lane_2	-1 ATAC_2_S6_L005_R1_001.fastq.gz -2 ATAC_2_S6_L005_R3_001.fastq.gz --barcode ATAC_2_S6_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_2	Dataset6_Lane_3	-1 ATAC_3_S7_L005_R1_001.fastq.gz -2 ATAC_3_S7_L005_R3_001.fastq.gz --barcode ATAC_3_S7_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_2	Dataset6_Lane_4	-1 ATAC_4_S8_L005_R1_001.fastq.gz -2 ATAC_4_S8_L005_R3_001.fastq.gz --barcode ATAC_4_S8_L005_R2_001.fastq.gz --read-format bc:8:24,r1:0:50,r2:0:98	0,0,16:0,16,28:1,0,90
+Team_3	ENCSR023FME	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR023FME.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR052DKH	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR052DKH.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR181XXQ	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR181XXQ.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR205TUH	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR205TUH.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR261TQO	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR261TQO.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR302CMX	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR302CMX.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR367GKP	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR367GKP.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR397LYX	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR397LYX.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR411MLR	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR411MLR.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR453TVZ	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR453TVZ.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR455CVZ	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR455CVZ.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR474TGL	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR474TGL.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR506YMX	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR506YMX.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR538FPK	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR538FPK.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR660NEE	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR660NEE.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR718WGE	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR718WGE.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR776EOI	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR776EOI.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR796RXX	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR796RXX.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR822GXQ	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR822GXQ.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR845QFX	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR845QFX.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR848EID	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR848EID.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR868ZEI	-1 R1.fastq.gz -2 R2.fastq.gz --barcode ENCSR868ZEI.BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_3	ENCSR987PQH	-1 R1.fastq.gz -2 R2.fastq.gz --barcode BC.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	
+Team_4	ENCODE_GM12878_10X_scATACseq	-1 R1.fastq.gz -2 R2.fastq.gz --barcode BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_4	ENCODE_K562_10X_scATACseq	-1 R1.fastq.gz -2 R2.fastq.gz --barcode BC.fastq.gz --read-format bc:0:16,r1:0:50,r2:0:49	
+Team_7	Bridge_Satpathy_101	-1 ATAC_101_S1_L001_R3_001.fastq.gz -2 ATAC_101_S1_L001_R1_001.fastq.gz --barcode ATAC_101_S1_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
+Team_7	Bridge_Satpathy_102	-1 ATAC_102_S2_L001_R3_001.fastq.gz -2 ATAC_102_S2_L001_R1_001.fastq.gz --barcode ATAC_102_S2_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
+Team_7	Bridge_Satpathy_104	-1 ATAC_104_S3_L001_R3_001.fastq.gz -2 ATAC_104_S3_L001_R1_001.fastq.gz --barcode ATAC_104_S3_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
+Team_7	Bridge_Satpathy_113	-1 ATAC_113_S4_L001_R1_001.fastq.gz -2 ATAC_113_S4_L001_R3_001.fastq.gz --barcode ATAC_113_S4_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
+Team_7	Bridge_Satpathy_114	-1 ATAC_114_S5_L001_R1_001.fastq.gz -2 ATAC_114_S5_L001_R3_001.fastq.gz --barcode ATAC_114_S5_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
+Team_7	Bridge_Satpathy_115	-1 ATAC_115_S6_L001_R3_001.fastq.gz -2 ATAC_115_S6_L001_R1_001.fastq.gz --barcode ATAC_115_S6_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
+Team_7	Bridge_Satpathy_116	-1 ATAC_116_S7_L001_R3_001.fastq.gz -2 ATAC_116_S7_L001_R1_001.fastq.gz --barcode ATAC_116_S7_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
+Team_7	igvf_b01_LeftCortex_13A		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13B		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13C		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13D		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13E		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13F		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13G		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13H		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
