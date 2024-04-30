@@ -64,12 +64,12 @@ Team_7	Bridge_Satpathy_113	-1 ATAC_113_S4_L001_R1_001.fastq.gz -2 ATAC_113_S4_L0
 Team_7	Bridge_Satpathy_114	-1 ATAC_114_S5_L001_R1_001.fastq.gz -2 ATAC_114_S5_L001_R3_001.fastq.gz --barcode ATAC_114_S5_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
 Team_7	Bridge_Satpathy_115	-1 ATAC_115_S6_L001_R1_001.fastq.gz -2 ATAC_115_S6_L001_R3_001.fastq.gz --barcode ATAC_115_S6_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
 Team_7	Bridge_Satpathy_116	-1 ATAC_116_S7_L001_R1_001.fastq.gz -2 ATAC_116_S7_L001_R3_001.fastq.gz --barcode ATAC_116_S7_L001_R2_001.fastq.gz --read-format bc:8:24,r1:0:100,r2:0:100	0,0,16:0,16,28:1,0,90
-Team_7	igvf_b01_LeftCortex_13A		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
-Team_7	igvf_b01_LeftCortex_13B		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
-Team_7	igvf_b01_LeftCortex_13C		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
-Team_7	igvf_b01_LeftCortex_13D		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
-Team_7	igvf_b01_LeftCortex_13E		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
-Team_7	igvf_b01_LeftCortex_13F		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
-Team_7	igvf_b01_LeftCortex_13G		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
-Team_7	igvf_b01_LeftCortex_13H		1,10,18,1,40,48,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13A		1,10,18,1,48,56,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13B		1,10,18,1,48,56,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13C		1,10,18,1,48,56,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13D		1,10,18,1,48,56,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13E		1,10,18,1,48,56,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13F		1,10,18,1,48,56,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13G		1,10,18,1,48,56,1,78,86:1,0,10:0,0,150
+Team_7	igvf_b01_LeftCortex_13H		1,10,18,1,48,56,1,78,86:1,0,10:0,0,150
 Team_8	BMMC_single_donor	-1 BMMC_single_donor_ATAC_L001_R1_corrected_trimmed.fastq.gz -2 BMMC_single_donor_ATAC_L001_R2_corrected_trimmed.fastq.gz --barcode BMMC_single_donor_ATAC_L001_barcodefile_corrected_trimmed.fastq.gz --read-format bc:15:23,bc:53:61,bc:91:99,r1:0:50,r2:0:50	1,15,23,1,53,61,1,91,99:-1,-1,-1:0,0,50
