@@ -56,7 +56,7 @@ sequence_spec:
   max_len: 8
   strand: pos
 - !Read
-  read_id: ATAC_2_S131_L007_R2_001.fastq.gz
+  read_id: ATAC_2_S359_L007_R2_001.fastq.gz
   name: Read 2 (technically Index 2 (i5 index))
   modality: atac
   primer_id: atac-nextera_read1
