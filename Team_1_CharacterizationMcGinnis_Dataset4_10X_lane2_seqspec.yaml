@@ -69,7 +69,7 @@ sequence_spec:
   modality: atac
   primer_id: atac-nextera_read2
   min_len: 1
-  max_len: 98
+  max_len: 50
   strand: neg
 - !Read
   read_id: 
