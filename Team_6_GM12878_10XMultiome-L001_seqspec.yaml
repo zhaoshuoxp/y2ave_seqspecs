@@ -1,0 +1,305 @@
+!Assay
+seqspec_version: 0.0.0
+assay_id: 'neat-seq'
+name: NEAT-seq
+doi: https://doi.org/10.1038/s41592-022-01461-y
+date: 02 May 2022
+description: NEAT-seq- simultaneous profiling of intra-nuclear proteins, chromatin accessibility and gene expression in single cells
+modalities:
+- rna
+- atac
+lib_struct: 'neat-seq'
+library_protocol: 'neat-seq'
+library_kit: 'neat-seq'
+sequence_protocol: 'neat-seq'
+sequence_kit: 'neat-seq'
+sequence_spec:
+- !Read
+  read_id: RNA_S1_L001_R1_001.fastq.gz
+  name: Read 1
+  modality: rna
+  primer_id: rna-truseq_read1
+  min_len: 28
+  max_len: 28
+  strand: pos
+- !Read
+  read_id: RNA_S1_L001_R2_001.fastq.gz
+  name: Read 2
+  modality: rna
+  primer_id: rna-truseq_read2
+  min_len: 1
+  max_len: 90
+  strand: pos
+- !Read
+  read_id: ATAC_S1_L001_I1_001.fastq.gz
+  name: Index
+  modality: atac
+  primer_id: atac-index1
+  min_len: 8
+  max_len: 8
+  strand: pos
+- !Read
+  read_id: ATAC_S1_L001_R1_001.fastq.gz
+  name: Read 1
+  modality: atac
+  primer_id: atac-truseq_read1
+  min_len: 1
+  max_len: 50
+  strand: pos
+- !Read
+  read_id: ATAC_S1_L001_R2_001.fastq.gz
+  name: Index 2
+  modality: atac
+  primer_id: atac-index2
+  min_len: 16
+  max_len: 16
+  strand: pos
+- !Read
+  read_id: ATAC_S1_L001_R3_001.fastq.gz
+  name: Read 2
+  modality: atac
+  primer_id: atac-truseq_read2
+  min_len: 1
+  max_len: 50
+  strand: pos
+library_spec:
+# RNA modality
+- !Region
+  region_id: rna
+  region_type: rna
+  name: NEAT-seq RNA
+  sequence_type: joined
+  sequence: NNNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  min_len: 29
+  max_len: 118
+  onlist: null
+  regions:
+  - !Region
+    parent_id: rna
+    region_id: rna-truseq_read1
+    region_type: truseq_read1
+    name: Truseq Read 1
+    sequence_type: fixed
+    sequence: 
+    min_len: 0
+    max_len: 0
+    onlist: null
+    regions: null
+  - !Region
+    parent_id: RNA
+    region_id: RNA_S1_L001_R1_001.fastq.gz
+    region_type: fastq
+    name: Read 1 FASTQ
+    sequence_type: joined
+    sequence: NNNNNNNNNNNNNNNNXXXXXXXXXXXX
+    min_len: 28
+    max_len: 28
+    onlist: null
+    regions:
+    - !Region
+      parent_id: RNA_S1_L001_R1_001.fastq.gz
+      region_id: RNA-cell_bc
+      region_type: barcode
+      name: Cell Barcode
+      sequence_type: onlist
+      sequence: NNNNNNNNNNNNNNNN
+      min_len: 16
+      max_len: 16
+      onlist: !Onlist
+        filename: 737K-arc-v1_GEX_whitelist.txt.gz
+        md5: 95ca0127739965ae57d09c6c1cfb20b4
+        location: local
+      regions: null
+    - !Region
+      parent_id: RNA_S1_L001_R1_001.fastq.gz
+      region_id: UMI
+      region_type: umi
+      name: umi
+      sequence_type: random
+      sequence: XXXXXXXXXXXX
+      min_len: 12
+      max_len: 12
+      onlist: null
+      regions: null
+  - !Region
+    parent_id: rna
+    region_id: rna-truseq_read2
+    region_type: truseq_read2
+    name: Truseq Read 2
+    sequence_type: fixed
+    sequence: 
+    min_len: 0
+    max_len: 0
+    onlist: null
+    regions: null
+  - !Region
+    parent_id: RNA
+    region_id: RNA_S1_L001_R2_001.fastq.gz
+    region_type: fastq
+    name: Read 1 FASTQ
+    sequence_type: joined
+    sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    min_len: 1
+    max_len: 90
+    onlist: null
+    regions:
+    - !Region
+      parent_id: RNA_S1_L001_R2_001.fastq.gz
+      region_id: cDNA
+      region_type: cdna
+      name: cDNA
+      sequence_type: random
+      sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      min_len: 1
+      max_len: 90
+      onlist: null
+      regions: null
+# ATAC modality
+- !Region
+  region_id: atac
+  region_type: atac
+  name: ATAC
+  sequence_type: joined
+  sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNNNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNNNNNNNN
+  min_len: 26
+  max_len: 124
+  onlist: null
+  regions:
+  - !Region
+    region_id: atac-truseq_read1
+    region_type: truseq_read1
+    name: Truseq Read 1
+    sequence_type: fixed
+    sequence: 
+    min_len: 0
+    max_len: 0
+    onlist: null
+    regions: null
+    parent_id: atac
+  - !Region
+    parent_id: ATAC
+    region_id: ATAC_S1_L001_R1_001.fastq.gz
+    region_type: fastq
+    name: Read 1 FASTQ
+    sequence_type: joined
+    sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    min_len: 1
+    max_len: 50
+    onlist: null
+    regions:
+    - !Region
+      parent_id: ATAC_S1_L001_R1_001.fastq.gz
+      region_id: gDNA-1
+      region_type: gdna
+      name: gDNA 1
+      sequence_type: random
+      sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      min_len: 1
+      max_len: 50
+      onlist: null
+      regions: null
+  - !Region
+    region_id: atac-index2
+    region_type: truseq_read2
+    name: Index 2
+    sequence_type: fixed
+    sequence: 
+    min_len: 0
+    max_len: 0
+    onlist: null
+    regions: null
+    parent_id: atac
+  - !Region
+    parent_id: ATAC
+    region_id: ATAC_S1_L001_R2_001.fastq.gz
+    region_type: fastq
+    name: Index 2
+    sequence_type: joined
+    sequence: NNNNNNNNNNNNNNNN
+    min_len: 16
+    max_len: 16
+    onlist: null
+    regions:
+    - !Region
+      parent_id: ATAC_S1_L001_R2_001.fastq.gz
+      region_id: ATAC-cell_bc
+      region_type: barcode
+      name: Cell Barcode
+      sequence_type: onlist
+      sequence: NNNNNNNNNNNNNNNN
+      min_len: 16
+      max_len: 16
+      onlist: !Onlist
+        filename: 737K-arc-v1_ATAC_whitelist.txt.gz
+        md5: 91f5bd173373fa1815830444480236fb
+        location: local
+      regions: null
+  - !Region
+    region_id: atac-truseq_read2
+    region_type: truseq_read2
+    name: Truseq Read 2
+    sequence_type: fixed
+    sequence: 
+    min_len: 0
+    max_len: 0
+    onlist: null
+    regions: null
+    parent_id: atac
+  - !Region
+    parent_id: ATAC
+    region_id: ATAC_S1_L001_R3_001.fastq.gz
+    region_type: fastq
+    name: Read 2 FASTQ
+    sequence_type: joined
+    sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    min_len: 1
+    max_len: 50
+    onlist: null
+    regions:
+    - !Region
+      parent_id: ATAC_S1_L001_R3_001.fastq.gz
+      region_id: gDNA-2
+      region_type: gdna
+      name: gDNA 2
+      sequence_type: random
+      sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      min_len: 1
+      max_len: 50
+      onlist: null
+      regions: null
+  - !Region
+    region_id: atac-index1
+    region_type: truseq_read1
+    name: Index 1
+    sequence_type: fixed
+    sequence: 
+    min_len: 0
+    max_len: 0
+    onlist: null
+    regions: null
+    parent_id: atac
+  - !Region
+    parent_id: ATAC
+    region_id: ATAC_S1_L001_I1_001.fastq.gz
+    region_type: fastq
+    name: Index 1
+    sequence_type: joined
+    sequence: NNNNNNNN
+    min_len: 8
+    max_len: 8
+    onlist: null
+    regions:
+    - !Region
+      parent_id: ATAC_S1_L001_I1_001.fastq.gz
+      region_id: ATAC-index7
+      region_type: index7
+      name: Sample index
+      sequence_type: onlist
+      sequence: NNNNNNNN
+      min_len: 8
+      max_len: 8
+      onlist: !Onlist
+        filename: index7_onlist.txt
+        md5: fcb5fe7d14ffc9984cd5450413c7a742
+        location: local
+      regions: null
