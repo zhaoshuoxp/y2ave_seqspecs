@@ -16,7 +16,7 @@ sequence_protocol: Illumina NovaSeq 6000
 sequence_kit: NovaSeq 6000 v1.5
 sequence_spec:
 - !Read
-  read_id: GEX2_S2_L001_R1_001.fastq.gz
+  read_id: GEX6_S6_L001_R1_001.fastq.gz
   name: Read 1
   modality: rna
   primer_id: rna-truseq_read1
@@ -24,7 +24,7 @@ sequence_spec:
   max_len: 28
   strand: pos
 - !Read
-  read_id: GEX2_S2_L001_I1_001.fastq.gz
+  read_id: GEX6_S6_L001_I1_001.fastq.gz
   name: Index 1 (i7 index)
   modality: rna
   primer_id: rna-truseq_read2
@@ -32,7 +32,7 @@ sequence_spec:
   max_len: 8
   strand: pos
 - !Read
-  read_id: GEX2_S2_L001_R2_001.fastq.gz
+  read_id: GEX6_S6_L001_R2_001.fastq.gz
   name: Read 2
   modality: rna
   primer_id: rna-truseq_read2
@@ -40,7 +40,7 @@ sequence_spec:
   max_len: 90
   strand: neg
 - !Read
-  read_id: ATAC2_S21_L007_R1_001.fastq.gz
+  read_id: ATAC6_S10_L007_R1_001.fastq.gz
   name: Read 1
   modality: atac
   primer_id: atac-nextera_read1
@@ -48,7 +48,7 @@ sequence_spec:
   max_len: 50
   strand: pos
 - !Read
-  read_id: ATAC2_S21_L007_I1_001.fastq.gz
+  read_id: ATAC6_S10_L007_I1_001.fastq.gz
   name: Index 1 (i7 index)
   modality: atac
   primer_id: atac-nextera_read2
@@ -56,7 +56,7 @@ sequence_spec:
   max_len: 8
   strand: pos
 - !Read
-  read_id: ATAC2_S21_L007_R2_001.fastq.gz
+  read_id: ATAC6_S10_L007_R2_001.fastq.gz
   name: Read 2 (technically Index 2 (i5 index))
   modality: atac
   primer_id: atac-nextera_read1
@@ -64,7 +64,7 @@ sequence_spec:
   max_len: 24
   strand: neg
 - !Read
-  read_id: ATAC2_S21_L007_R3_001.fastq.gz
+  read_id: ATAC6_S10_L007_R3_001.fastq.gz
   name: Read 3 (technically Read 2)
   modality: atac
   primer_id: atac-nextera_read2
@@ -72,7 +72,7 @@ sequence_spec:
   max_len: 50
   strand: neg
 - !Read
-  read_id: MULTI2_S9_L001_R1_001.fastq.gz
+  read_id: MULTI6_S13_L001_R1_001.fastq.gz
   name: Read 1
   modality: tag
   primer_id: multi-truseq_read1
@@ -80,7 +80,7 @@ sequence_spec:
   max_len: 28
   strand: pos
 - !Read
-  read_id: MULTI2_S9_L001_I1_001.fastq.gz
+  read_id: MULTI6_S13_L001_I1_001.fastq.gz
   name: Index 1 (i7 index)
   modality: tag
   primer_id: multi-truseq_read2
@@ -88,7 +88,7 @@ sequence_spec:
   max_len: 8
   strand: pos
 - !Read
-  read_id: MULTI2_S9_L001_R2_001.fastq.gz
+  read_id: MULTI6_S13_L001_R2_001.fastq.gz
   name: Read 2
   modality: tag
   primer_id: multi-truseq_read2
