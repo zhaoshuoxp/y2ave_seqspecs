@@ -29,7 +29,7 @@ sequence_spec:
   primer_id: rna-truseq_read2
   min_len: 1
   max_len: 150
-  strand: pos
+  strand: neg
 - !Read
   read_id: K562_10x_Multiome_ATAC_S1_L001_I2_001.fastq.gz
   name: Index
@@ -37,7 +37,7 @@ sequence_spec:
   primer_id: atac-truseq_read0
   min_len: 16
   max_len: 16
-  strand: pos
+  strand: neg
 - !Read
   read_id: K562_10x_Multiome_ATAC_S1_L001_R1_001.fastq.gz
   name: Read 1
@@ -53,13 +53,13 @@ sequence_spec:
   primer_id: atac-truseq_read2
   min_len: 1
   max_len: 150
-  strand: pos
+  strand: neg
 library_spec:
 # RNA modality
 - !Region
   region_id: rna
   region_type: rna
-  name: ISSAAC-seq RNA
+  name: Multiome RNA
   sequence_type: joined
   sequence: NNNNNNNNNNNNNNNNXXXXXXXXXXXXXX
   min_len: 30
@@ -162,7 +162,7 @@ library_spec:
 - !Region
   region_id: atac
   region_type: atac
-  name: ISSAAC-seq ATAC
+  name: Multiome ATAC
   sequence_type: joined
   sequence: NNNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   min_len: 18
