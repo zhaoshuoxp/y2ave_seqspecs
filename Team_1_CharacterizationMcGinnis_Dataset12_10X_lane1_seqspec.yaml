@@ -12,8 +12,8 @@ modalities:
 lib_struct: https://igvf.github.io/seqspec/
 library_protocol: Any
 library_kit: Illumina Truseq Dual Index
-sequence_protocol: Illumina NovaSeq 6000
-sequence_kit: NovaSeq 6000 v1.5
+sequence_protocol: Illumina NovaSeq X
+sequence_kit: NovaSeq X Series 10B Reagent Kit
 sequence_spec:
 - !Read
   read_id: GEX1_S1_L001_R1_001.fastq.gz
