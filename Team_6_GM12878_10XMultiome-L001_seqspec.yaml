@@ -29,7 +29,7 @@ sequence_spec:
   primer_id: rna-truseq_read2
   min_len: 1
   max_len: 90
-  strand: pos
+  strand: neg
 - !Read
   read_id: ATAC_S1_L001_I1_001.fastq.gz
   name: Index
@@ -53,7 +53,7 @@ sequence_spec:
   primer_id: atac-index2
   min_len: 16
   max_len: 16
-  strand: pos
+  strand: neg
 - !Read
   read_id: ATAC_S1_L001_R3_001.fastq.gz
   name: Read 2
@@ -61,7 +61,7 @@ sequence_spec:
   primer_id: atac-truseq_read2
   min_len: 1
   max_len: 50
-  strand: pos
+  strand: neg
 library_spec:
 # RNA modality
 - !Region
